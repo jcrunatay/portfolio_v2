@@ -29,7 +29,7 @@ export default function About(){
             <h2 ref={headingRef} className={`title section-title ${isTitleVisible ? "section-title-animate" : ""}`}><span className="light-title-line title-line"></span>About Me<span className="light-title-line title-line"></span></h2>
             <div  className={`about-content-container div div1 ${isVisible ? "animate1" : ""}`} ref={divRef}>
                 <div className="about-leftDiv">
-                    <img className="profile" src="./images/profile.png" alt="profile" />
+                    <img className="profile" src="./portfolio_v2/images/profile.png" alt="profile" />
                 </div>
                 <div className="about-rightDiv">
                     <div className="bio-container">      

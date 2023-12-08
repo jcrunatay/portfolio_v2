@@ -33,7 +33,7 @@ export default function Passion(){
                     <div className={`passion-content-container div div1 ${isVisible ? "animate1" : ""}`}  >
                         <div className="design passion-item">
                             <div className="img-wrapper">
-                                <img src="./images/design.svg" alt="design icon" />
+                                <img src="./portfolio_v2/images/design.svg" alt="design icon" />
                             </div>
                             <h4>DESIGN</h4>
                             <p>
@@ -43,7 +43,7 @@ export default function Passion(){
 
                         <div className="development passion-item">
                             <div  className="img-wrapper">
-                                <img src="./images/development.svg" alt="development icon" />
+                                <img src="./portfolio_v2/images/development.svg" alt="development icon" />
                             </div>
                             <h4>DEVELOPMENT</h4>
                             <p>
@@ -53,7 +53,7 @@ export default function Passion(){
 
                         <div className="collaboration passion-item">
                             <div className="img-wrapper">
-                                <img src="./images/collaboration.svg" alt="collaboration icon" />
+                                <img src="./portfolio_v2/images/collaboration.svg" alt="collaboration icon" />
                             </div>
                             <h4>COLLABORATION</h4>
                             <p className="what-i-do-description">
