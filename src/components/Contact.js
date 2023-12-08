@@ -35,7 +35,7 @@ export default function Contact(){
                 </p>
                 <div id='send-email-container'>
                     <a id='email-btn' href="mailto:juyanrunatay@gmail.com"> Say Hello </a><br/>
-                    <img id='send-email-img' src="./portfolio_v2/images/send-email.svg" alt="email" />
+                    <img id='send-email-img' src="./images/send-email.svg" alt="email" />
                 </div>
             </div>
         </section>

@@ -30,12 +30,12 @@ export default function Header(){
     return(
         <div className="hero-container" id="home">
             <video autoPlay loop muted >
-                    <source src="./portfolio_v2/images/hero-video-bg.mp4" type="video/mp4"/>
+                    <source src="./images/hero-video-bg.mp4" type="video/mp4"/>
                     Your browser does not support the video tag.
             </video>
             <header>
                 <nav className={ scrolled ? "scrolled" : "" }>
-                <a className="nav-logo-container" href="./index.html"><img className="nav-logo" src="./portfolio_v2/images/logo.png" alt="logo" /></a> 
+                <a className="nav-logo-container" href="./index.html"><img className="nav-logo" src="./images/logo.png" alt="logo" /></a> 
                     <ul>
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
@@ -53,7 +53,7 @@ export default function Header(){
                     </button>
                 </nav>
                 <div className="overlay">
-                    <a href="./index.html"><img className="logo" src="./portfolio_v2/images/logo.png" alt="logo" /></a>
+                    <a href="./index.html"><img className="logo" src="./images/logo.png" alt="logo" /></a>
                     <div>
                         <h1>
                             Hi, I'm Juyan  Runatay
@@ -65,10 +65,10 @@ export default function Header(){
                     </div>
                     <div className="header-socials-container">
                         <ul>
-                            <li><a href="https://github.com/jcrunatay"><img src="./portfolio_v2/images/socials/github.svg" alt="github icon" /></a></li>
-                            <li><a href="https://www.linkedin.com/in/juyan-runatay-800171251/"><img src="./portfolio_v2/images/socials/linkedin.svg" alt="linkedin icon" /></a></li>
-                            <li><a href="mailto:juyanrunatay@gmail.com"><img src="./portfolio_v2/images/socials/email.svg" alt="email icon" /></a></li>
-                            <li><a href="https://www.facebook.com/jcrunatay"><img src="./portfolio_v2/images/socials/facebook.svg" alt="facebook icon" /></a></li>
+                            <li><a href="https://github.com/jcrunatay"><img src="./images/socials/github.svg" alt="github icon" /></a></li>
+                            <li><a href="https://www.linkedin.com/in/juyan-runatay-800171251/"><img src="./images/socials/linkedin.svg" alt="linkedin icon" /></a></li>
+                            <li><a href="mailto:juyanrunatay@gmail.com"><img src="./images/socials/email.svg" alt="email icon" /></a></li>
+                            <li><a href="https://www.facebook.com/jcrunatay"><img src="./images/socials/facebook.svg" alt="facebook icon" /></a></li>
                         </ul>
                     </div>
                 </div>

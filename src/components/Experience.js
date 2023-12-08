@@ -30,7 +30,7 @@ export default function Experience(){
             <div className={`div div1 ${isVisible ? "animate1" : ""}`} ref={divRef}>
                 <div className="skills-work-main-container">
                     <div className="skills-content-container">
-                        <img className="experience-logo" src="./portfolio_v2/images/development-skills.svg" alt="development img" />
+                        <img className="experience-logo" src="./images/development-skills.svg" alt="development img" />
                         <h3 className="development-skills-title">SKILLS AND TOOLS</h3>
                         <p className="description">I've been programming and focusing on front-end development for almost 2 years now and I'm still eager to learn and further my skills in this kind of field.</p>
                     </div>
@@ -49,7 +49,7 @@ export default function Experience(){
                         <button>Figma</button>
                     </div>
                     <div className="work-content-container">
-                        <img className="experience-logo" src="./portfolio_v2/images/company.svg" alt="past work logo img" />
+                        <img className="experience-logo" src="./images/company.svg" alt="past work logo img" />
                         <h3 className="past-work-title">WHEN IN INTERNSHIP</h3>
                         <p className="description ">As a front-end developer intern, my role revolves around crafting the visible parts of websites or web applications that users interact with. Here are some things I did:</p>
                     </div>
