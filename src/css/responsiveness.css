@@ -1,0 +1,311 @@
+@media (max-width: 1537px) {
+/*##################
+    About Section
+###################*/
+#about > .about-content-container > .about-leftDiv,
+#about > .about-content-container > .about-rightDiv{
+width: 50%;
+transition: all 0.3s ease-out;
+} 
+
+#about > .about-content-container > .about-rightDiv{
+    padding: 0;
+}
+    
+#about > .about-content-container > .about-leftDiv{
+    width: 50%;
+} 
+
+/*##################
+    Experience Section
+###################*/
+
+
+#experience .skills-work-main-container .skills-content-container,
+#experience .skills-work-main-container .work-content-container{
+    flex-wrap: wrap;
+}
+
+#experience .skills-work-main-container .description{
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+/*##################
+    Project Section
+###################*/
+#projects .projects-container{
+    padding: 5% 0%;
+}
+
+}
+
+@media (max-width: 1279px) {
+/*##################
+    Header Section
+###################*/
+.overlay{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,80%);
+    border-radius: 1rem;
+    padding:3rem 0;
+    position: absolute;
+    animation: none;
+    z-index: 99;
+}
+
+
+main section{
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.logo{
+    display: none;
+}
+
+nav .nav-logo-container{
+    display: block;
+    margin-right: auto;
+    margin-left: 2rem;
+}
+
+nav .nav-logo{
+    width: 40px;
+}
+
+/*##################
+    About Section
+###################*/
+#about > .about-content-container > .about-leftDiv,
+#about > .about-content-container > .about-rightDiv{
+width: 60%;
+transition: all 0.3s ease-out;
+} 
+
+#about > .about-content-container > .about-rightDiv{
+    padding: 4rem;
+}
+    
+#about > .about-content-container > .about-leftDiv{
+    width: 40%;
+} 
+
+/*##################
+    Passion Section
+###################*/
+
+#passion .passion-content-container .passion-item .img-wrapper,
+#passion .passion-content-container .passion-item img{
+    pointer-events: none;
+}
+/*############################
+    Resume And Footer Section
+##############################*/
+
+#resume,
+footer #footer-content-wrapper{
+    width: 100%;
+}
+
+
+}
+
+@media (max-width: 1023px) {
+  
+
+/*##################
+    About Section
+###################*/
+
+#about > .about-content-container > .about-leftDiv{
+    padding: 2rem 0;
+} 
+#about > .about-content-container > .about-rightDiv{
+    padding: 0 2rem;
+} 
+
+}
+
+
+@media (max-width: 899px) {
+
+/*##################
+    About Section
+###################*/
+#about > .about-content-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#about > .about-content-container > .about-leftDiv,
+#about > .about-content-container > .about-rightDiv{
+    width: 80%;
+    margin: auto;
+}
+
+#about > .about-content-container > .about-leftDiv{
+    width: 40%;
+    margin: auto;
+}
+    
+/*##################
+    Passion Section
+###################*/
+#passion .passion-content-container .passion-item .img-wrapper{
+    width: 10rem;
+    height: 10rem;
+}
+
+#passion .passion-content-container .passion-item{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+    
+#passion .passion-content-container{
+    flex-direction: column;
+}
+/*##################
+    Projects Section
+###################*/
+
+#projects{
+    padding: 0 0;
+}
+
+#projects .projects-container{
+    gap: 1rem;
+    padding: 5% 0;
+}
+
+#experience .skills-work-main-container .skill-icon-container{
+    padding:5% 10%;
+}
+
+/*######################
+    Experience Section
+########################*/
+
+#experience .work-description-container{
+    padding:2% 10%;
+}
+    
+}
+
+@media (max-width: 839px) {
+
+
+/*######################
+    Header Section
+########################*/
+nav > ul{
+    display: none;
+}
+
+nav .menu-btn{
+    display: block;
+}
+
+}
+
+
+@media (max-width: 768px) {
+
+.overlay  h1{
+    font-size: 2rem;
+}
+
+section h2{
+    font-size: 2rem;
+}
+
+#about > .about-content-container > .about-leftDiv{
+    width: 50%;
+}
+
+
+#projects .projects-container{
+    grid-template-columns: 1fr;
+    padding: 5% 15%;
+
+}
+
+#contact .contact-content-wrapper{
+    width: 70%;
+}
+
+}
+
+
+@media (max-width: 639px) {
+:root{
+    font-size: 14px;
+}
+
+section{
+    padding: 1rem;
+}
+
+/*######################
+    About Section
+########################*/
+
+#about > .about-content-container > .about-rightDiv{
+    padding: 0;
+    width: 100%;
+}
+
+#about > .about-content-container > .about-leftDiv{
+    width: 80%;
+}
+
+#experience .skills-work-main-container .skill-icon-container{
+    padding:5% 5%;
+}
+
+#experience .work-description-container{
+    padding:2% 5%;
+}
+
+#experience .skills-work-main-container .skill-icon-container button{
+    width: 5.5rem;
+    height: 2.5rem;
+}
+
+#experience .skills-work-main-container .skill-icon-container button::after,
+#experience .skills-work-main-container .skill-icon-container button::before{
+    width: 6rem;
+    height: 3rem;
+}
+
+#projects .projects-container{
+    grid-template-columns: 1fr;
+    padding: 5% 7% 5% 3%;
+
+}
+
+#contact .contact-content-wrapper{
+    width: 90%;
+}
+
+footer .footer-text{
+    font-size: 0.8rem;
+}
+
+
+footer #footer-content-wrapper{
+    padding: 1.5rem 0;
+}
+
+}
