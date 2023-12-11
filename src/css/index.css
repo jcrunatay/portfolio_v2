@@ -112,6 +112,7 @@ video{
 /* hidden logo */
 nav .nav-logo-container{
   display: none;
+  animation: swirl-in-bck 1s ease-in-out 2s both;
 }
 
 nav{
@@ -155,6 +156,7 @@ nav .menu-btn{
   outline: none;
   cursor: pointer;
   background-color: transparent;
+  animation: swirl-in-bck 1s ease-in-out 2s both;
 }
 
 nav .menu-btn svg{
@@ -765,6 +767,7 @@ section h2 .dark-title-line{
 #contact .contact-content-wrapper #send-email-container #send-email-img{
   height:6rem;
   width: 6rem;
+  transition: all 0.3s ease-out;
 }
 
 
