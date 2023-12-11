@@ -217,6 +217,15 @@ nav .menu-btn{
     display: block;
 }
 
+#contact .contact-content-wrapper #send-email-container #send-email-img{
+    height:4rem;
+    width: 4rem;
+}
+
+#contact .contact-content-wrapper #email-btn{
+    font-size: 1rem;
+}
+
 }
 
 
