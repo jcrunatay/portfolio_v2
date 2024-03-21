@@ -57,7 +57,7 @@ export default function Header() {
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <button className="menu-btn" onClick={toggleMenu}>
+                    <button className="menu-btn" tabindex="0" onClick={toggleMenu}>
                         <svg
                             width="40px"
                             height="30px"
@@ -86,7 +86,7 @@ export default function Header() {
                 </nav>
                 <div className="overlay">
                     <a href="./index.html">
-                        <img className="logo" src="./portfolio_v2/images/logo.png" alt="logo" />
+                        <img className="logo" src="./images/logo.png" alt="logo" />
                     </a>
                     <div>
                         <h1>Hi, I'm Juyan Runatay</h1>
@@ -121,32 +121,32 @@ export default function Header() {
                 <div className={`overlay2 ${menuIsOpen ? "overlay2--visible" : ""}`}>
                     <ul>
                         <li>
-                            <a onClick={toggleMenu} href="#home">
+                            <a onClick={toggleMenu} href="#homeee" tabindex="-1">
                                 Home
                             </a>
                         </li>
                         <li>
-                            <a onClick={toggleMenu} href="#about">
+                            <a onClick={toggleMenu} href="#about" tabindex="-1">
                                 About
                             </a>
                         </li>
                         <li>
-                            <a onClick={toggleMenu} href="#experience">
+                            <a onClick={toggleMenu} href="#experience" tabindex="-1">
                                 Experience
                             </a>
                         </li>
                         <li>
-                            <a onClick={toggleMenu} href="#passion">
+                            <a onClick={toggleMenu} href="#passion" tabindex="-1">
                                 Passion
                             </a>
                         </li>
                         <li>
-                            <a onClick={toggleMenu} href="#projects">
+                            <a onClick={toggleMenu} href="#projects" tabindex="-1">
                                 Projects
                             </a>
                         </li>
                         <li>
-                            <a onClick={toggleMenu} href="#contact">
+                            <a onClick={toggleMenu} href="#contact" tabindex="-1">
                                 Contact
                             </a>
                         </li>
