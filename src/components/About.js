@@ -38,7 +38,7 @@ export default function About() {
                 ref={divRef}
             >
                 <div className="about-leftDiv">
-                    <img className="profile" src="./images/profile.png" alt="profile" />
+                    <img className="profile" src="./images/profile-no-bg.png" alt="profile" />
                 </div>
                 <div className="about-rightDiv">
                     <div className="bio-container">
