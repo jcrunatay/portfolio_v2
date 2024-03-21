@@ -27,7 +27,7 @@ export default function Projects() {
                     project_title="Web Content Management System"
                     project_src_desktop="./images/project-images/cms_desktop.png"
                     project_src_mobile="./images/project-images/cms_mobile.png"
-                    project_description="Web Content Management System is a software system that provides website authoring, collaboration, and administration tools designed to allow users with little knowledge of web programming languages or markup languages to create and manage website content with relative ease"
+                    project_description="Web Content Management System is a software system that provides website authoring, collaboration, and administration tools designed to allow users with little knowledge of web programming languages or markup languages to create and manage website content with relative ease. Demo: username & password: juyan24"
                     project_tools={["Bootstrap", "MySql", "Php", "Html", "Css", "Javascript"]}
                     project_link_demo="http://juyan-runatay.infinityfreeapp.com/M5P/"
                     project_link_code="https://github.com/jcrunatay/Group-Project"
@@ -55,7 +55,7 @@ export default function Projects() {
                     project_src_desktop="./images/project-images/movie_app_desktop.png"
                     project_src_mobile="./images/project-images/movie_app_mobile.png"
                     project_description="TheWatchMovies is an app where users can watch  movie(trailer) and users will be able to see the full information of the movie."
-                    project_tools={["React", "Tailwindcss", "Api"]}
+                    project_tools={["React", "Tailwindcss", "Api", "Firebase"]}
                     project_link_demo="https://jcrunatay.github.io/movie_app/"
                     project_link_code="https://github.com/jcrunatay/movie_app"
                 />
