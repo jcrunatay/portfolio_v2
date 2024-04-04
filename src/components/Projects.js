@@ -104,6 +104,15 @@ export default function Projects() {
                     project_link_demo="https://jcrunatay.github.io/search-country/"
                     project_link_code="https://github.com/jcrunatay/search-country"
                 />
+                <Project
+                    project_title="Front-end Quiz App"
+                    project_src_desktop="./images/project-images/frontend_quiz_app_desktop.png"
+                    project_src_mobile="./images/project-images/frontend_quiz_app_mobile.png"
+                    project_description="Front-end Quiz App is an app to test front-end developer's basic knowledge in web development. Created with React for client side, and Php - MySql in server side. When application is run, You would need to login first or sign up if you haven't registered yet. Scores will be track and shown at the end of the quiz. Goodluck :)"
+                    project_tools={["React", "Php", "MySql", "Tailwindcss"]}
+                    project_link_demo="https://juyan-runatay.infinityfreeapp.com/frontend_quiz_app/"
+                    project_link_code="https://github.com/jcrunatay/frontend_quiz_app"
+                />
             </div>
         </section>
     );
