@@ -29,7 +29,7 @@ export default function Header() {
     return (
         <div className="hero-container" id="home">
             <video autoPlay loop muted>
-                <source src="./images/hero-video-bg.mp4" type="video/mp4" />
+                <source src="./images/hero-bg-video.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
             <header>
@@ -39,25 +39,55 @@ export default function Header() {
                     </a>
                     <ul>
                         <li>
-                            <a href="#home">Home</a>
+                            <a href="#home" aria-labelledby="mobile-menu-home-label">
+                                Home
+                            </a>
+                            <span className="aria-labels" id="mobile-menu-home-label">
+                                Navigate to Homepage section
+                            </span>
                         </li>
                         <li>
-                            <a href="#about">About</a>
+                            <a href="#about" aria-labelledby="mobile-menu-about-label">
+                                About
+                            </a>
+                            <span className="aria-labels" id="mobile-menu-about-label">
+                                Navigate to About section
+                            </span>
                         </li>
                         <li>
-                            <a href="#experience">Experience</a>
+                            <a href="#experience" aria-labelledby="mobile-menu-experience-label">
+                                Experience
+                            </a>
+                            <span className="aria-labels" id="mobile-menu-experience-label">
+                                Navigate to Experience section
+                            </span>
                         </li>
                         <li>
-                            <a href="#passion">Passion</a>
+                            <a href="#passion" aria-labelledby="mobile-menu-passion-label">
+                                Passion
+                            </a>
+                            <span className="aria-labels" id="mobile-menu-passion-label">
+                                Navigate to Passion section
+                            </span>
                         </li>
                         <li>
-                            <a href="#projects">Projects</a>
+                            <a href="#projects" aria-labelledby="mobile-menu-projects-label">
+                                Projects
+                            </a>
+                            <span className="aria-labels" id="mobile-menu-projects-label">
+                                Navigate to Projects section
+                            </span>
                         </li>
                         <li>
-                            <a href="#contact">Contact</a>
+                            <a href="#contact" aria-labelledby="mobile-menu-contact-label">
+                                Contact
+                            </a>
+                            <span className="aria-labels" id="mobile-menu-contact-label">
+                                Navigate to Contact section
+                            </span>
                         </li>
                     </ul>
-                    <button className="menu-btn" tabindex="0" onClick={toggleMenu}>
+                    <button name="menu-btn" className="menu-btn" tabindex="0" onClick={toggleMenu}>
                         <svg
                             width="40px"
                             height="30px"
@@ -86,7 +116,12 @@ export default function Header() {
                 </nav>
                 <div className="overlay">
                     <a href="./index.html">
-                        <img className="logo" src="./images/logo.png" alt="logo" />
+                        <img
+                            className="logo"
+                            src="./images/logo.png"
+                            alt="logo"
+                            aria-label="Logo"
+                        />
                     </a>
                     <div>
                         <h1>Hi, I'm Juyan Runatay</h1>
@@ -121,39 +156,87 @@ export default function Header() {
                 <div className={`overlay2 ${menuIsOpen ? "overlay2--visible" : ""}`}>
                     <ul>
                         <li>
-                            <a onClick={toggleMenu} href="#homeee" tabindex="-1">
+                            <a
+                                onClick={toggleMenu}
+                                href="#home"
+                                tabindex="-1"
+                                aria-labelledby="home-label"
+                            >
                                 Home
                             </a>
+                            <span className="aria-labels" id="home-label">
+                                Navigate to Homepage section
+                            </span>
                         </li>
                         <li>
-                            <a onClick={toggleMenu} href="#about" tabindex="-1">
+                            <a
+                                onClick={toggleMenu}
+                                href="#about"
+                                tabindex="-1"
+                                aria-labelledby="about-label"
+                            >
                                 About
                             </a>
+                            <span className="aria-labels" id="about-label">
+                                Navigate to About section
+                            </span>
                         </li>
                         <li>
-                            <a onClick={toggleMenu} href="#experience" tabindex="-1">
+                            <a
+                                onClick={toggleMenu}
+                                href="#experience"
+                                tabindex="-1"
+                                aria-labelledby="experience-label"
+                            >
                                 Experience
                             </a>
+                            <span className="aria-labels" id="experience-label">
+                                Navigate to Experience section
+                            </span>
                         </li>
                         <li>
-                            <a onClick={toggleMenu} href="#passion" tabindex="-1">
+                            <a
+                                onClick={toggleMenu}
+                                href="#passion"
+                                tabindex="-1"
+                                aria-labelledby="passion-label"
+                            >
                                 Passion
                             </a>
+                            <span className="aria-labels" id="passion-label">
+                                Navigate to Passion section
+                            </span>
                         </li>
                         <li>
-                            <a onClick={toggleMenu} href="#projects" tabindex="-1">
+                            <a
+                                onClick={toggleMenu}
+                                href="#projects"
+                                tabindex="-1"
+                                aria-labelledby="projects-label"
+                            >
                                 Projects
                             </a>
+                            <span className="aria-labels" id="projects-label">
+                                Navigate to Projects section
+                            </span>
                         </li>
                         <li>
-                            <a onClick={toggleMenu} href="#contact" tabindex="-1">
+                            <a
+                                onClick={toggleMenu}
+                                href="#contact"
+                                tabindex="-1"
+                                aria-labelledby="contact-label"
+                            >
                                 Contact
                             </a>
+                            <span className="aria-labels" id="contact-label">
+                                Navigate to Contact section
+                            </span>
                         </li>
                     </ul>
                 </div>
             </header>
-            <a href="#about" className="bottom-caret-btn">
+            <a href="#about" className="bottom-caret-btn" aria-label="Explore Section">
                 <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="SVGRepo_bgCarrier" stroke-width="0" />
                     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
