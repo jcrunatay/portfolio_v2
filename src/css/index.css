@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Smooch+Sans:wght@200;300;400&display=swap");
+/* "homepage": "https://jcrunatay.github.io/portfolio_v2", */
 *,
 html,
 body {
@@ -145,6 +147,14 @@ nav > ul > li > a {
 nav > ul > li > a:hover {
     background-color: #f0b7a1;
     color: #752201;
+}
+
+.aria-labels {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
 
 nav .menu-btn {
