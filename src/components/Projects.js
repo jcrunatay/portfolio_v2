@@ -33,6 +33,15 @@ export default function Projects() {
                     project_link_code="https://github.com/jcrunatay/Group-Project"
                 />
                 <Project
+                    project_title="ShopStyle"
+                    project_src_desktop="./images/project-images/shopstyle_desktop.png"
+                    project_src_mobile="./images/project-images/shopstyle_mobile.png"
+                    project_description="ShopStyle is an e-commerce platform built with React, Sass, and Redux, providing a seamless shopping experience. The app uses Firebase for user authentication, ensuring secure access. It features a variety of products from the Fake Store API, allowing users to browse and purchase items across different categories."
+                    project_tools={["React", "Sass", "Redux", "Firebase"]}
+                    project_link_demo="https://poetic-salmiakki-9f7c48.netlify.app/"
+                    project_link_code="https://github.com/jcrunatay/shop_style"
+                />
+                <Project
                     project_title="DevFinder"
                     project_src_desktop="./images/project-images/devfinder_desktop.png"
                     project_src_mobile="./images/project-images/devfinder_mobile.png"
@@ -54,7 +63,7 @@ export default function Projects() {
                     project_title="TheWatchMovies"
                     project_src_desktop="./images/project-images/movie_app_desktop.png"
                     project_src_mobile="./images/project-images/movie_app_mobile.png"
-                    project_description="TheWatchMovies is an app where users can watch  movie(trailer) and users will be able to see the full information of the movie."
+                    project_description="TheWatchMovies is an app where you can watch movie trailers and get all the details about the movies, like the cast, story, and genre. It's built using React, Tailwind CSS, an API for movie data, and Firebase. The app is designed to be easy to use and works well on any device."
                     project_tools={["React", "Tailwindcss", "Api", "Firebase"]}
                     project_link_demo="https://jcrunatay.github.io/movie_app/"
                     project_link_code="https://github.com/jcrunatay/movie_app"
@@ -99,7 +108,7 @@ export default function Projects() {
                     project_title="Where in the world ?"
                     project_src_desktop="./images/project-images/search_country_desktop.png"
                     project_src_mobile="./images/project-images/search_country_mobile.png"
-                    project_description="Where in the world is an app where you can search for a country and information such as name of the country, population, region and other information will be displayed."
+                    project_description="Where in the World is an app that lets you search for any country and view detailed information about it, including its name, population, region, and more. Built with HTML, JavaScript, and Tailwind CSS, the app fetches data from an API to provide up-to-date information. It’s designed to be simple to use and visually appealing, making it easy to explore and learn about countries around the globe."
                     project_tools={["Html", "Javascript", "Tailwindcss", "Api"]}
                     project_link_demo="https://jcrunatay.github.io/search-country/"
                     project_link_code="https://github.com/jcrunatay/search-country"
