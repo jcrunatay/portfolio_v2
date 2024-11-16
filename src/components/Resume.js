@@ -9,7 +9,7 @@ export default function Resume() {
                 <a
                     className="resume-btn"
                     rel="noreferrer"
-                    href="./images/document/Juyan_Criston_Runatay_CV.pdf"
+                    href="./images/document/Juyan_Criston_Runatay_Resume.pdf"
                     target="_blank"
                 >
                     My Resume
