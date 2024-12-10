@@ -34,7 +34,7 @@ export default function Header() {
             </video>
             <header>
                 <nav className={scrolled ? "scrolled" : ""}>
-                    <a className="nav-logo-container" href="./index.html">
+                    <a className="nav-logo-container" href="#">
                         <img className="nav-logo" src="./images/logo.png" alt="logo" />
                     </a>
                     <ul>
