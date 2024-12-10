@@ -95,7 +95,7 @@ export default function Projects() {
                     project_link_demo="http://juyan-runatay.infinityfreeapp.com/M4/Punch-Bag/"
                     project_link_code="https://github.com/jcrunatay/punch_bag"
                 />
-                <Project
+                {/* <Project
                     project_title="Rock-Paper-Scissors"
                     project_src_desktop="./images/project-images/rps_desktop.png"
                     project_src_mobile="./images/project-images/rps_mobile.png"
@@ -103,7 +103,7 @@ export default function Projects() {
                     project_tools={["Html", "Javascript", "Bootstrap", "Css"]}
                     project_link_demo="https://jcrunatay.github.io/Rock-_Paper_Scissors/"
                     project_link_code="https://github.com/jcrunatay/Rock-_Paper_Scissors"
-                />
+                /> */}
                 <Project
                     project_title="Where in the world ?"
                     project_src_desktop="./images/project-images/search_country_desktop.png"
